@@ -1,16 +1,69 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+html{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 16px;
+}
+.header
+{
+    background-color: rgb(65, 84, 252);
+    color: white;
+    height: 80px;
+    margin-bottom: 10px;
+}
+.margen{
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.logo{
+    text-transform: uppercase;
+}
+.logo a{
+        text-decoration: none;
+        color: white;  
+      }
+.navbar {
+    background-color: rgb(5, 5, 151);
+    color: white;
+}
+
+.navbar ul {
+    text-align: right;
+}
+
+.navbar ul li{
+    display: inline-block;
+}
+
+.navbar ul a {
+    text-decoration: none;
+    display: block;
+    padding: 10px;
+    color: white;
+}
+
+.navbar ul li a:hover{
+    background-color: rgba(255, 255, 255, 0.973);
+    color: black;
+}
 body
 {
-    background: rgb(72, 115, 235)
+    background: rgb(219, 227, 248)
 }
 h1 {
     color: rgb(7, 7, 85);
     text-align: center;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 1.30cm;
+    padding: 10px;
 }
 h2
 {
     font-family: Arial, Helvetica, sans-serif;
+    padding: 10px;
 }
 .casa
 {
@@ -26,6 +79,7 @@ h2
     font-family: Arial, Helvetica, sans-serif;
     font-size: 0,70cm;
     background-color: rgb(247, 249, 252);
+    
 }
 .formulario
 {
