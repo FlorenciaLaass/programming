@@ -111,16 +111,15 @@ h1 {
 .figure {
     border-image:space;
 }
-
+.defolt{
+    background-color: white;
+    padding: 0.7cm;
+}
 .box {
     display: flex;
     align-items: flex-start;
 }
 
-.defolt{
-    background-color: white;
-    padding: 0.7cm;
-}
 h3
 {
     font-family: Arial, Helvetica, sans-serif;
