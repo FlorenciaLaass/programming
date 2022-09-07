@@ -49,6 +49,12 @@ html{
     background-color: rgba(255, 255, 255, 0.973);
     color: black;
 }
+#portada{
+    width: 78%;
+    background: rgba(162,159,159);
+    padding: 0.6cm;
+    box-sizing: border-box;
+}
 body
 {
     background: rgb(219, 227, 248)
@@ -70,9 +76,7 @@ h2
 .margenes{
     padding: 5px;
 }
-.caja{
-    font-family: Arial, Helvetica, sans-serif;
-}
+
 .casa{
     border-top: 4px solid;
     border-right: 2px solid;
@@ -89,18 +93,27 @@ h2
     width: 78%;
     box-sizing: border-box;
 }
+
 .figure {
     border-image:space;
 
     image size
 }
+
 .box {
     display: flex;
     align-items: flex-start;
-  }
+}
+
 .defolt{
     background-color: white;
     padding: 0.7cm;
+}
+h3
+{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 0.65cm;
+    text-align: center;
 }
   .formulario
   {
