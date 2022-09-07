@@ -66,3 +66,8 @@ html{
     background-color: white;
     padding: 0.7cm;
 }
+.footer{
+    background:rgb(13, 13, 233);
+    color: white;
+    margin-top: 15px;
+}
