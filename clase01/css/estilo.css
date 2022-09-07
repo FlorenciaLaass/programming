@@ -31,7 +31,7 @@ html{
 }
 
 .navbar ul {
-    text-align: right;
+    text-align: left;
 }
 
 .navbar ul li{
@@ -59,39 +59,60 @@ h1 {
     font-family: Arial, Helvetica, sans-serif;
     font-size: 1.30cm;
     padding: 10px;
+    text-decoration: underline;
 }
 h2
 {
     font-family: Arial, Helvetica, sans-serif;
-    padding: 10px;
+    font-size: 0.65cm;
+    text-align: center;
 }
-.casa
-{
+.margenes{
+    padding: 5px;
+}
+.caja{
+    font-family: Arial, Helvetica, sans-serif;
+}
+.casa{
     border-top: 4px solid;
     border-right: 2px solid;
     border-bottom: 4px solid;
     border-left: 2px solid;
 
     padding-top: 15px;
-    padding-right: 20px;
+    padding-right: 5px;
     padding-bottom: 15px;
     padding-left: 20px;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 0,70cm;
     background-color: rgb(247, 249, 252);
-    
+    width: 78%;
+    box-sizing: border-box;
 }
-.formulario
-{
-    margin-top: 20px;
-    margin-left: 20px;
+.figure {
+    border-image:space;
+
+    image size
 }
-.dato
-{
-    width: 30%;
+.box {
+    display: flex;
+    align-items: flex-start;
+  }
+.defolt{
+    background-color: white;
+    padding: 0.7cm;
 }
-.datos
-{
-    width: 30%;
-    height: 60px;
-}
+  .formulario
+  {
+      margin-top: 20px;
+      margin-left: 20px;
+  }
+  .dato
+  {
+      width: 30%;
+  }
+  .datos
+  {
+      width: 30%;
+      height: 60px;
+  }
