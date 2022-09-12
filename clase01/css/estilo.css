@@ -1,8 +1,8 @@
-
 *{
     margin: 0;
     padding: 0;
 }
+
 html{
     font-family: 'Times New Roman', Times, serif;
     font-size: 16px;
@@ -57,15 +57,18 @@ html{
     float: left;
     box-sizing: border-box;
 }
-.limpiarfloat{
-    clear: both;
-}
+
 .destacado{
     padding: 0.3cm;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 0.45cm;
     text-align: center;
 }
+.limpiarfloat{
+    clear: both;
+    margin-bottom: 25px;
+}
+
 .ads{
     width: 20%;
     background: rgba(255, 255, 255, 0.308);
@@ -96,51 +99,43 @@ h1 {
     border-right: 2px solid;
     border-bottom: 4px solid;
     border-left: 2px solid;
-
-    padding-top: 15px;
-    padding-right: 5px;
-    padding-bottom: 15px;
-    padding-left: 20px;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 0,70cm;
     background-color: rgb(247, 249, 252);
-    width: 78%;
+    width: 7
+    8%;
     box-sizing: border-box;
 }
 
-.figure {
+.figure{
     border-image:space;
 }
 .defolt{
     background-color: white;
     padding: 0.7cm;
 }
-.box {
+.box{
     display: flex;
     align-items: flex-start;
 }
 
-h3
-{
+h3{
     font-family: Arial, Helvetica, sans-serif;
     font-size: 0.65cm;
     text-align: center;
 }
-  .formulario
-  {
+.formulario{
       margin-top: 20px;
       margin-left: 20px;
   }
-  .dato
-  {
+.dato{
       width: 30%;
   }
-  .datos
-  {
+.datos{
       width: 30%;
       height: 60px;
   }
-  .footer{
+.footer{
     background:rgb(13, 13, 233);
     color: white;
     margin-top: 15px;

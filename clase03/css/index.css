@@ -62,12 +62,15 @@ html{
     float: left;
     box-sizing: border-box;
 }
-.limpiarfloat{
-    clear: both;
-}
+
 .destacado, .defolt{
     background-color: white;
     padding: 0.7cm;
+}
+
+.limpiarfloat{
+    clear: both;
+    margin-bottom: 25px;
 }
 
 .ads{
