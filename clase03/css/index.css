@@ -83,6 +83,7 @@ html{
 }
 
 .footer{
+    clear: both;
     background:rgb(13, 13, 233);
     color: white;
     margin-top: 15px;

@@ -50,37 +50,6 @@ html{
     background-color: rgba(255, 255, 255, 0.973);
     color: black;
 }
-#portada{
-    width: 78%;
-    background: rgba(162,159,159);
-    padding: 0.6cm;
-    float: left;
-    box-sizing: border-box;
-}
-
-.destacado{
-    padding: 0.3cm;
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 0.45cm;
-    text-align: center;
-}
-.limpiarfloat{
-    clear: both;
-    margin-bottom: 25px;
-}
-
-.ads{
-    width: 20%;
-    background: rgba(255, 255, 255, 0.308);
-    height: 200px;
-    box-sizing: border-box;
-    float: right;
-    text-align: center;
-}
-body
-{
-    background: rgb(219, 227, 248)
-}
 h1 {
     color: rgb(7, 7, 85);
     text-align: center;
@@ -89,11 +58,22 @@ h1 {
     padding: 10px;
     text-decoration: underline;
 }
-
+#portada{
+    width: 78%;
+    background: rgba(162,159,159);
+    padding: 0.6cm;
+    float: left;
+    box-sizing: border-box;
+}
 .margenes{
     padding: 5px;
 }
-
+.destacado, .defolt{
+    padding: 0.3cm;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 0.45cm;
+    text-align: center;
+}
 .casa{
     border-top: 4px solid;
     border-right: 2px solid;
@@ -102,18 +82,15 @@ h1 {
     font-family: Arial, Helvetica, sans-serif;
     font-size: 0,70cm;
     background-color: rgb(247, 249, 252);
-    width: 7
-    8%;
+    width: 80%;
     box-sizing: border-box;
+    padding: 0.2cm;
+}
+.limpiarfloat{
+    clear: both;
+    margin-bottom: 25px;
 }
 
-.figure{
-    border-image:space;
-}
-.defolt{
-    background-color: white;
-    padding: 0.7cm;
-}
 .box{
     display: flex;
     align-items: flex-start;
@@ -135,7 +112,16 @@ h3{
       width: 30%;
       height: 60px;
   }
+.ads{
+    width: 20%;
+    background: rgba(255, 255, 255, 0.308);
+    height: 200px;
+    box-sizing: border-box;
+    float: right;
+    text-align: center;
+}
 .footer{
+    clear: both;
     background:rgb(13, 13, 233);
     color: white;
     margin-top: 15px;
