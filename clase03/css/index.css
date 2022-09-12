@@ -62,7 +62,7 @@ html{
     float: left;
     box-sizing: border-box;
 }
-.limpiarafloay{
+.limpiarfloat{
     clear: both;
 }
 .destacado, .defolt{
