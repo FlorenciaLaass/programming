@@ -66,6 +66,7 @@ h1 {
     box-sizing: border-box;
 }
 .margenes{
+    margin-bottom: 10px;
     padding: 5px;
 }
 .destacado, .defolt{
@@ -84,7 +85,6 @@ h1 {
     background-color: rgb(247, 249, 252);
     width: 80%;
     box-sizing: border-box;
-    padding: 0.2cm;
 }
 .limpiarfloat{
     clear: both;
